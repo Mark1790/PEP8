@@ -1,9 +1,18 @@
-class User():
-    def __init__(self, username, password=""):
-self.username = username
-self.password = password
+# CamelCase
+# Identificacion: 4 Espacios (No Tabs)
+# Parametros separados por , 1 espacio
+# Snake Case
+#Espacios entre operadores
+class UserAdmin():
 
-def set_password(self):
-    pass
-        
-cody_user = User('Cody')
+
+    def__init__(self,username,password = ''):
+        self.username = username
+        self.password = password
+
+
+    def_set_password(self):
+        pass
+
+
+codyuser = userAdmin('Cody')
